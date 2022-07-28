@@ -18,6 +18,7 @@ a:focus {
     justify-content: start;
     flex-direction: column;
     padding: 0 !important;
+    background-color: white;
 }
 nav .navbar-topbar {
     display:flex;
@@ -155,4 +156,122 @@ nav .navbar-topbar span {
     color: black;
     font-size: 0.9rem;
     padding: 0.5rem;
+}
+main{
+    margin-top:150px;
+}
+.book-image {
+    height: 150px;
+
+}
+.books-section {
+    margin-top: 5rem;
+}
+.book-add {
+    padding:8px;
+    width:100%;
+    border: none;
+    background-color: #3f89bd;
+    color: white;
+    text-align: center;
+}
+.books-list {
+    position: relative;
+    margin-top: 4rem;
+}
+.previous {
+    position: absolute;
+    top: 135px;
+    right: -100px; 
+    font-size: 2rem;
+}
+.slider-item {
+    display: flex;
+}
+.next {
+    position: absolute;
+    top: 135px;
+    left: -100px; 
+    font-size: 2rem;
+}
+.hide {
+    display: none;
+
+}
+.show {
+    display: flex !important;
+}
+.customer-reviews{
+    margin-top:5rem;
+    background-color: #eeeeee;
+    width:100%;
+    height: 25rem;
+    padding: 3rem;
+}
+.review-header {
+    padding-right: 2rem;
+}
+.rate-of-5{
+    border-radius:1rem;
+    height:5rem;
+    width:100px;
+    background-color: #f8af49;
+}
+.rate-of-5-head{
+    height: 70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.rate-of-5-foot{
+    background-color: #fcd9b7;
+    color: #b65624;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.review-progressbar{
+    height: 5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-progressbar-item{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+.progressbar {
+    width: 50%;
+    height: 0.9rem;
+    background-color: #cccccc;
+}
+.tiny-text {
+    font-size: 0.7rem;
+}
+.text-muted {   color: #d2d2d2  }
+.progressbar-value {
+    width: 70%;
+    height: 100%;
+    background-color: #0b669a;
+}
+.lni-star-filled,.lni-heart-filled,.lni-book,.lni-trees{
+    font-size: 2rem;
+}
+footer {
+    padding: 5rem 0;
+    height: 30rem;
+    width: 100%;
+    background-color: #011f34;
+    color: white;
+    margin-top: 5rem;
+}
+footer a {
+    line-height: 30px;
+    color : white !important;
 }
