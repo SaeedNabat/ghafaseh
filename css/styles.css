@@ -275,3 +275,127 @@ footer a {
     line-height: 30px;
     color : white !important;
 }
+#subscribe-input {
+width: 50%;
+height: 3rem;
+border: none;
+box-shadow: none;
+padding: 8px;
+border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.footer-subscribe{
+    border:none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-right: -6px;
+    z-index: 2;
+    font-weight: bold;
+    width:50%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color: white;
+    background-color: #3f89bd;
+}
+.signin-form{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    
+}
+.signin-form .form-group{
+    width: 100%;
+    margin-top: 1rem;
+}
+.signin-form a {
+    margin: 1rem 0;
+}
+a {
+    text-decoration: none;
+}
+.signin-form button {
+    width: 100%;
+
+}
+.google-login{
+    background-color: #1a73e8;
+    color: white;
+}
+.seperator {
+    margin: 2rem 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(168, 166, 166);
+}
+.cart-item{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 10rem;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.cart-item-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.order-summary-item{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout {
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: 25rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+.cart-item-manage-btn{
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+    padding: 0.1rem 0.5rem;
+    background-color: white;
+    line-height: 30px;
+}
+.cart-item-manage-count{
+    padding: 0.1rem 0.5rem;
+}
+.checkout .seperator {
+    margin:0.5rem 0;
+}
+.coupon-button{
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-right: -6px;
+    z-index: 2;
+    font-weight: bold;
+    width:30%;
+    border:1px solid gainsboro;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color: black;
+    background-color: #ffffff;
+}
+#coupon-input {
+    width: 70%;
+    height: 2rem;
+    border: 1px solid gray;
+    box-shadow: none;
+    padding: 8px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    }
