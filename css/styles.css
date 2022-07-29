@@ -399,3 +399,44 @@ a {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     }
+    .filter-section-item {
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+    .filter-section-title{
+        background-color: #011f34;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        text-align: right;
+    }
+    .filter-section span {
+        display: block;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+    #search .books-section{
+        margin-top: unset;
+    }
+    #search .books-list {
+        margin-top: unset;
+    }
+    #search .book {
+        margin-top: 2rem;
+    }
+    #search .pagination{
+        padding-right: unset;
+        margin-top: 2rem
+    }
+    .account-cards {
+        width:100%;
+    }
+    .account-cards .card {
+        margin-top: 2rem;
+    } 
+    #account-nav {
+        margin-top: 1rem;
+    }
+    #account-table {
+        margin-top: 2rem;
+    }
